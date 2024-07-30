@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src ="script.js"></script>
+  </head>
+  <body>
+  
+   
+     
+    <nav>
+     
+        <ul>
+          <h4>Welcome</h4>
+            <li><a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+  
+    <section id="home">
+     <h1 id="name">
+      Shreynik  Jain
+     </h1>
+     <div id="profli">
+      <img  id="photo" src="new photo.jpeg" alt="image">
+    </div><br>
+      <div id="social-profile">
+      <button onclick="openGitHub()">  <img  id="gitHub" src="Github.jpg" alt="image"></button><br>
+       <button onclick="openLinkdin()"> <img  id="Linkdin" src="linkdin.jpeg" alt="image"></button><br>
+        <button onclick="openInsta()"> <img  id="Insta" src="insta.jpeg" alt="image"></button>
+      </div>
+      <div id="my-intro">
+        <div id="inside">
+          
+        <strong id="intro">
+          <i>
+          I am Shreynik Jain, a web developer and cybersecurity Engineer. I am passionate about my work with a special interest in both backend and frontend development.
+        </i> </strong></div>
+      </div>
+      <button onclick="Scroll('About')"> <img  id="down" src="down.jpeg" alt="image"></button>
+    </section>
+    <section id="About"><br><br><br>
+     <h3> About Me</h3><br><br>
+     <div id="aboutMe">
+      <div id="inside-me">
+     <I id="Me">
+       I am Shreynik Jain .I am persuing BTech degree in Cyber Security and have just completed my 1st year in Shri Ramdebaba University.  I am proficient at Web-Development which include JavaScript, React, HTML and CSS. I have knowlegde of Java, AWT, Swing and for handling DataBase SQLite and Socket Programming
+     </I></div>
+    </div>
+    <a href="Resume.pdf" download="Resume.pdf">
+    <button id="resume" ><b>Download Resume</b></button></a>
+    <div id="myPhoto">
+      <img id="aboutPhoto" src="newPhoto.jpg">
+    </div>
+    </section>
+    <section id="Skills">
+      <div id="skillSection"><br><br><br>
+        <h8> My Codding Language Knowledge</h8><br><br>
+        <img id="java" src="java.jpeg">
+        <img id="AWT" src="AWT.jpeg">
+        <img id="sqlite" src="Sqlite.jpeg">
+        <img id="figma" src="figma.png">
+        
+          <p id="pjava"> Class creation<br>Method calling<br> 
+            Constructor calling<br>
+            Serialization<br>
+            DeSerialization<br>Generics<br>Design Pattern<br>Threads
+          </p>
+          <p id="pAWT">Frame Creation<br><Label Creation<br>Event Handling<br>Button Creation<br>List Creation <br>TextField Creation<br>CheckBox Creation<br>
+          </p>
+          <p id="psqlite">DataBase Creation<br>
+          Table Creation<br>
+        Insertion of data<br>
+      Deletion of data<br>  Updation of data
+    </p>
+  <p id="pfigma">Frame Creation<br> Component Creation<br>UI Creation<bt>
+   <br> UX Creation<br>SlideShow Animation <br></p><br>
+        <img id="jdbc" src="jdbc.png">
+        <img id="json" src="json.png">
+        <img id="swing" src="swing.jpeg">
+        <p id="pjdbc">Java Connection with DataBase<br>Creating Queries using Sqlite<br>Modifying and Viewing Records
+        <br>Executing Queries </p>
+        <p id="pjson">Convertion of JSON to Java<br>
+        Convertion of Java to JSON<br> COnvertionAPI data to JSON</p>
+        <p id="pswing">Creation of JFrame<br>JProgressbar Creation <br>JTabbedPane<br>
+        JTextField Creation <br>JPasswordField Creation <br>JImageIcon Creation <br>JMenuBar Creation </p>
+      </div>
+    </section>
+    <section id="Projects"><br><br><br>
+      <h9>Latest Works</h9>
+      <div id="p"><br>
+     <video  controls ><source src="Stopwatch.mp4" type="video/mp4"></video>
+     <video  controls> <source src="wwatherapp.mp4" type="video/mp4"></video>
+     <video  controls><source src="video.mp4" type="video/mp4">
+     </video><br><br>
+     <video  controls><source src="Swing  petshop SQLITE project.mp4" type="video/mp4"></video>
+      
+      </div>
+    
+    </section>
+    <section id="Contact">
+      <div id="contact-section">
+        <div id="Emailbox">
+          <img  id="email" src="email.jpeg">
+          <div id="d-email"
+          <p id=" demail">Email</p>
+        </div>
+        <div id="my-email">
+          <p id="myemail">Jainsy@rknec.edu</p>
+        </div>
+        <div id="phonebox">
+          <img  id="phone" src="whatsapp.png">
+          <div id="d-phone"
+          <p id="phonne">WhatsApp</p>
+        </div>
+        <div id="my-email">
+          <p id="myemail">+919075116848</p>
+        </div>
+      </div>
+      <div id="collab">
+        <div="disciptions>
+      <b id="d-collab">Any Ideas To Collab </b><br><br><br><br>
+    <label id="d-name">Your Name:</label><input type="text" id="dd-name" ><br><br>
+  <label id="d-idea"> Your Email:</label>
+  <input type="text" id="idea"</div><br><br>
+  <label id="d-idea"> Any Ideas:</label>
+  <input type="textarea" id="iidea"><br><br>
+  
+      </div>
+    </section>
+    <script>
+      document.querySelectorAll('nav a').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+              e.preventDefault();
+      
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+      function openLinkdin()
+      {
+        window.open('https://www.linkedin.com/in/shreynik-jain-b7a7bb2a9/','_blank');
+      }
+      function openGitHub()
+      {
+        window.open('https://github.com/Shreynik00','_blank');
+      }
+      function openInsta()
+      {
+        window.open('https://www.instagram.com/shreynik_000/','_blank');
+      }
+      var id;
+      function Scroll(id)
+      {
+        document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+      }
+   
+      </script>
+  </body>
+</html>

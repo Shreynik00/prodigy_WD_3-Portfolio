@@ -1,0 +1,617 @@
+nav
+{
+    box-shadow: 7px 7px 4px rgb(45, 77, 112);
+    position: fixed;
+    margin-top: -14vh;
+    margin-left: 2vh;
+     height: 6vh;
+     border-radius: 1vh;
+     width:189vh;
+}
+ul{
+    list-style: none;
+    margin-left: 50vh;
+    margin-top: -10vh;
+}
+a{
+   font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 5vh 4vh;
+    font-size: 20px;
+    color:black;
+    
+}
+#name{
+  
+    font-size: 29px;
+   padding-top: 16vh;
+   padding-left:1vh ;
+   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+#home
+{
+    height: 100vh;
+    background-image:url();
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#About
+{
+    height: 100vh;
+    
+}
+#Projects
+{
+    height: 100vh;
+    margin-top: 20vh;
+   
+    
+}
+#Skills
+{
+    height: 100vh;
+    
+}
+#Contact
+{
+    height: 100vh;
+    
+}
+
+#name
+{     
+    font-size: 43px;
+    
+    margin-left: 65vh;
+    margin-top: 15vh;
+    
+}
+h4{
+    font-size: 3vh;
+}
+h9{
+    font-size: 30px;
+    margin-top: 48vh;
+    margin-left: 78vh;
+}
+video
+{
+    height: 40vh;
+    width: 56vh;
+  padding: -1px;
+    margin-left: 3vh;
+   border-radius: 1vh;
+   box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+   border: 2px solid #000000;
+}
+button{
+    border:none;
+    cursor:pointer;
+    background-color: rgb(255, 255, 255);
+}
+#watch
+{
+    margin-left: 13vh;
+    font-size: 19px;
+}
+#weather
+{
+    margin-left: 9vh;
+    font-size: 19px;
+}
+#music{
+    margin-left: 1vh;
+    font-size: 19px;
+}
+#repoWheather 
+{
+    margin-left: 70vh;
+}
+
+
+#GMusic
+{
+    margin-left: 2vh;
+   margin-top: 7vh;
+   text-align: start;
+   font-size: 19px;
+ 
+}
+#GitHub
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: rgba(0, 255, 255, 0.321);
+    border-radius: 3px;
+    margin-left: 4vh;  
+    box-shadow: 1px 4px 9px rgba(36, 241, 228, 0.656);    
+}
+#LiveMusic
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: rgba(0, 255, 255, 0.321);
+    border-radius: 3px;
+    margin-left: 4vh;
+    box-shadow: 1px 4px 9px rgba(36, 241, 228, 0.656); 
+}
+#visiteSite
+{
+    margin-left: 2vh;
+    margin-top: 7vh;
+    text-align: start;
+    font-size: 19px;
+}
+
+#GWheather
+{
+    margin-left: 3vh;
+   margin-top: 7vh;
+   text-align: start;
+   font-size: 19px;
+  
+}
+#GitHubWheather
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: rgba(0, 255, 255, 0.321);
+    border-radius: 3px;
+    margin-left: 67vh;  
+    margin-top: -11vh;
+    box-shadow: 1px 4px 9px rgba(36, 241, 228, 0.656);  
+}
+#Livewheather
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: rgba(0, 255, 255, 0.321);
+    border-radius: 3px;
+    margin-left: 0vh;
+    box-shadow: 1px 4px 9px rgba(36, 241, 228, 0.656); 
+   
+}
+#WvisiteSite
+{
+    margin-left: 3vh;
+    margin-top: 7vh;
+    text-align: start;
+    font-size: 19px;
+    
+}
+#LiveWatch{
+    background-color: rgba(0, 255, 255, 0.321);
+    box-shadow: 1px 4px 9px rgba(36, 241, 228, 0.656);
+}
+#gitHub
+{
+    
+    height: 5vh;
+    width: 5vh;
+    border-radius: 19vh;
+   
+}
+#Linkdin
+{
+    
+    height: 5vh;
+    width: 5vh;
+    border-radius: 19vh;
+    margin-top: 3vh;
+    
+}
+#Insta
+{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 19vh;
+   margin-top: 3vh;
+   
+}
+
+#GWatch
+{
+    margin-left: 3vh;
+   margin-top: 7vh;
+   text-align: start;
+   font-size: 19px;
+  
+}
+#GitHubWatch
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: aqua;
+    border-radius: 3px;
+    margin-left: 58vh;  
+    margin-top: -11vh; 
+}
+#LiveWatch
+{
+    width: 49vh;
+    height: 3vh;
+    background-color: aqua;
+    border-radius: 3px;
+    margin-left: 58vh;
+    margin-top: 3vh;
+   
+}
+#SvisiteSite
+{
+    margin-left: 3vh;
+    margin-top: -13vh;
+    text-align: start;
+    font-size: 19px;
+    
+}
+#photo
+{
+    animation: showRight 1s ease forwards;
+    animation-delay:-4s;
+    height: 37vh;
+    width: 35vh;
+    border-radius: 19vh;
+   
+    border: 2px solid #000000;
+}
+#profli
+{
+    width: 40vh;
+    height: 40vh;
+    margin-top: -12vh;
+   margin-left:138vh;
+
+}
+#social-profile
+{
+   
+    width: 20vh;
+    height: 40vh;
+    margin-top: -38vh;
+    margin-left: 9vh;
+}
+#skillSection
+{
+    margin-top: 9vh;
+   
+    height: 100vh;
+   
+}
+h8
+{
+    margin-top: 29vh;
+    margin-left: 70vh;
+    font-size: 30px;
+   font-family: 'Times New Roman';
+}
+#java
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+    margin-left: 10vh;
+}
+#sqlite
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    margin-left: 22vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+}
+#AWT
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    margin-left: 17vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+}
+#figma
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    margin-left: 21vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+}
+#json
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    margin-left: 17vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+    margin-top: 2vh;
+}
+#swing
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+   
+    margin-left: 17vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+    margin-top: 2vh;
+}
+#jdbc
+{
+    height: 16vh;
+    border-radius: 2vh;
+    width: 25vh;
+    margin-left: 12vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border: 2px solid #000000;
+}
+
+#pjava
+{
+ 
+    margin-left: 12vh;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#pAWT
+{
+    margin-top: -22vh;
+    margin-left: 56vh;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#psqlite
+{
+    margin-top: -17vh;
+    margin-left: 105vh;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#pfigma
+{
+    margin-top: -15vh;
+    margin-left: 151vh;
+  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#pswing
+{
+    margin-left: 100vh;
+    margin-top: -11vh;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#pjdbc
+{
+    margin-left: 11vh;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#pjson
+{
+    margin-left: 56vh;
+    margin-top: -13vh;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#my-intro
+{
+    height: 19vh;
+    width: 49vh;
+    background-color: aquamarine;
+    margin-left: 55vh;
+    margin-top: -19vh;
+    
+    animation: slideFromLeft 1s ease forwards;
+    
+    @keyframes slideFromLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+    }
+    border: 1px solid #847b7b;
+    border-radius: 2vh;
+}
+#intro
+{
+    font-size: 19px;
+    
+    animation: slideFromLeft 1s ease forwards;
+    
+    @keyframes slideFromLeft {
+        5% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+    } 
+   
+}
+#inside
+{
+    padding: 2vh ;
+}
+#down
+{
+    margin-top: 16vh;
+    height: 19vh;
+    width: 22vh;
+}
+h3{
+   
+    margin-left: 85vh;
+    font-size: 25px;
+}
+#aboutMe
+{
+    background-color: aquamarine;
+    border-radius: 1vh;
+    width: 85vh;
+    height: 25vh;
+    margin-left: 89vh;
+    font-size: 3vh;
+}
+#inside-me
+{
+    padding: 2vh;
+     
+    animation: slideFromLeft 1s ease forwards;
+    
+    @keyframes slideFromLeft {
+        0% {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+    }
+}
+#resume
+{
+    height: 6vh;
+    border: 2px solid #847b7b;
+    
+    box-shadow: 2px 5px 5px 2px rgba(1, 14, 13, 0.785);
+   font-size: 2vh;
+    width: 24vh;
+    border-radius: 2vh;
+   margin-left: 100vh;
+   margin-top: 5vh;
+   background-color: aliceblue;
+}
+#Emailbox{
+    height: 20vh;
+    width: 30vh;
+    border: 2px solid #847b7b;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    margin-top: 10vh;
+    margin-left: 9vh;
+    border-radius: 2vh;
+}
+#email
+{
+    width: 20vh;
+    height: 17vh;
+    margin-left: 4vh;
+}
+#d-email
+{
+    margin-left: 11vh;
+    margin-top: -5vh;
+}
+#contact-section
+{
+   padding-top: 5vh;
+ 
+}
+#my-email
+{
+    margin-left: 6vh;
+    margin-top: -2vh;
+}
+#phonebox{
+    height: 20vh;
+    width: 30vh;
+    border: 2px solid #847b7b;
+    margin-top: 10vh;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    border-radius: 2vh;
+}
+#phone
+{
+    width: 8vh;
+    height: 10vh;
+    margin-left: 9vh;
+    margin-top: 3vh;
+    background-color: azure;
+}
+#d-phone
+{
+    margin-left: 7vh;
+   
+}
+#d-phone
+{
+    margin-left: 8vh;
+}
+#collab
+{
+    background-color: rgba(0, 255, 255, 0.538);
+    width: 100vh;
+    height: 50vh;
+    border: 2px solid #847b7b;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+    margin-left: 49vh;
+    margin-top: -50vh;
+    border-radius: 2vh;
+}
+#d-collab
+{
+    margin-left: 29vh;
+    font-size: 4vh;   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#d-name{
+    margin-left: 1vh;
+    font-size: 3vh;  
+}
+#d-idea{
+    margin-left: 1vh;
+    font-size: 3vh;
+    
+}
+#iidea {
+    width: 400px; 
+    height: 100px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border: 2px solid #181717;
+    border-radius: 5px;
+}
+#idea
+{
+    width: 380px;   
+    border: 2px solid #1a1919;
+    height: 20px;
+    border-radius: 5px;
+}
+#dd-name
+{
+    height: 20px;
+    width: 380px;   
+    border-radius: 5px;
+    border: 2px solid #131212;
+}
+#aboutPhoto
+{
+    width: 50vh;
+    height: 70vh;
+    background-color: aquamarine;
+    
+    margin-top: -40vh;
+    margin-left: 8vh;
+    border-radius: 5px;
+    border: 2px solid #131212;
+    box-shadow: 5px 5px 5px 5px rgba(1, 14, 13, 0.785);
+}
